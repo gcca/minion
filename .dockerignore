@@ -1,0 +1,10 @@
+.git
+.DS_Store
+.cache
+build
+build-*
+compile_commands.json
+data
+.claude
+.agents
+.github

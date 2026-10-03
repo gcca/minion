@@ -1,0 +1,10 @@
+namespace minion.schema;
+
+table Task {
+  id:string;
+  name:string (required);
+  args:[string];
+}
+
+root_type Task;
+file_identifier "MNTK";
